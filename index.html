@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your First Website is Live</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Faint floating background glows -->
+  <div class="bg-glow bg-glow-1" data-speed="1.5"></div>
+  <div class="bg-glow bg-glow-2" data-speed="-1.2"></div>
+  <div class="bg-glow bg-glow-3" data-speed="2.0"></div>
+  <div class="bg-glow bg-glow-4" data-speed="-1.8"></div>
+  <div class="bg-glow bg-glow-5" data-speed="1.1"></div>
+  <div class="bg-glow bg-glow-hero"></div>
+
+  <!-- Subtle floating code symbols -->
+  <div class="code-symbol symbol-1" data-speed="2.2">&lt; &gt;</div>
+  <div class="code-symbol symbol-2" data-speed="-1.5">{ }</div>
+  <div class="code-symbol symbol-3" data-speed="1.7">&lt;/&gt;</div>
+  <div class="code-symbol symbol-4" data-speed="-2.5">{ }</div>
+
+  <div class="container">
+    <header class="header animate-fade-in" style="--delay: 1;">
+      <div class="logo">
+        <span class="logo-icon"></span>
+        First Deployment
+      </div>
+    </header>
+
+    <main class="main-content" id="parallax-content">
+      <section class="hero-section">
+        <div class="success-badge animate-scale-up" style="--delay: 2;">
+          <span class="badge-dot"></span>
+          Deployment Live
+        </div>
+        
+        <div class="heading-container animate-slide-up" style="--delay: 3;">
+          <h1 class="heading">Your First Website is Live</h1>
+        </div>
+        
+        <p class="subheading animate-fade-in" style="--delay: 4;">
+          This website has been successfully deployed using GitHub Actions and GitHub Pages. Every time you push changes to GitHub, the live website updates automatically.
+        </p>
+      </section>
+
+      <section class="status-card animate-slide-up" style="--delay: 5;">
+        <div class="status-item">
+          <span class="status-label">Status</span>
+          <span class="status-value status-live">Live</span>
+        </div>
+        <div class="status-divider"></div>
+        <div class="status-item">
+          <span class="status-label">Platform</span>
+          <span class="status-value">GitHub Pages</span>
+        </div>
+        <div class="status-divider"></div>
+        <div class="status-item">
+          <span class="status-label">Branch</span>
+          <span class="status-value">main</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer animate-fade-in" style="--delay: 6;">
+      <p class="workflow-sequence">
+        <span class="step" id="step-edit">Edit</span>
+        <span class="arrow" id="arr-1">&rarr;</span>
+        <span class="step" id="step-commit">Commit</span>
+        <span class="arrow" id="arr-2">&rarr;</span>
+        <span class="step" id="step-push">Push</span>
+        <span class="arrow" id="arr-3">&rarr;</span>
+        <span class="step" id="step-deploy">Deploy</span>
+        <span class="cursor-bar">|</span>
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
