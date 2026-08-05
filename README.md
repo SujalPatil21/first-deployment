@@ -1,6 +1,6 @@
 # First Deployment
 
-A beginner-friendly project that demonstrates how to deploy a static website using **GitHub Actions** and **GitHub Pages**.
+A beginner-friendly project that demonstrates how to deploy a static website using GitHub Actions and GitHub Pages.
 
 This repository is designed for students who are learning Git, GitHub, and automated deployments for the first time.
 
@@ -9,9 +9,8 @@ This repository is designed for students who are learning Git, GitHub, and autom
 ## What You'll Learn
 
 - Forking a GitHub repository
-- Cloning a project locally
-- Making changes to a website
-- Committing and pushing code
+- Editing files on GitHub
+- Creating commits
 - Understanding GitHub Actions
 - Deploying a website with GitHub Pages
 
@@ -21,34 +20,17 @@ This repository is designed for students who are learning Git, GitHub, and autom
 
 ### 1. Fork this repository
 
-Create your own copy of this repository by clicking **Fork**.
+Click **Fork** to create your own copy of this project.
 
-### 2. Clone your repository
+### 2. Make your changes
 
-```bash
-git clone https://github.com/SujalPatil21/first-deployment.git
-```
+Edit the HTML, CSS, or JavaScript files directly from GitHub.
 
-### 3. Open the project
+### 3. Commit your changes
 
-Open the project in your preferred code editor.
+Commit the changes to your repository.
 
-### 4. Make changes
-
-Edit the HTML, CSS, or JavaScript files.
-
-### 5. Commit your changes
-
-```bash
-git add .
-git commit -m "Updated website"
-```
-
-### 6. Push to GitHub
-
-```bash
-git push origin main
-```
+### 4. Watch the deployment
 
 GitHub Actions will automatically build and deploy your website.
 
@@ -67,11 +49,11 @@ https://<your-username>.github.io/first-deployment/
 ## Workflow
 
 ```text
+Fork
+  ↓
 Edit
   ↓
 Commit
-  ↓
-Push
   ↓
 GitHub Actions
   ↓
@@ -87,8 +69,6 @@ Live Website
 - HTML
 - CSS
 - JavaScript
-- Git
-- GitHub
 - GitHub Actions
 - GitHub Pages
 
@@ -96,7 +76,7 @@ Live Website
 
 ## Learning Objective
 
-The goal of this project is to help beginners understand how a simple static website can be automatically deploy whenever changes are pushed to GitHub.
+Learn how changes made to a GitHub repository are automatically deployed to a live website using GitHub Actions and GitHub Pages.
 
 ---
 
