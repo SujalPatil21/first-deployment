@@ -26,7 +26,7 @@ Create your own copy of this repository by clicking **Fork**.
 ### 2. Clone your repository
 
 ```bash
-git clone https://github.com/<your-username>/first-deployment.git
+git clone https://github.com/SujalPatil21/first-deployment.git
 ```
 
 ### 3. Open the project
